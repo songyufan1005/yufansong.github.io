@@ -16,12 +16,38 @@ Research interests
 - **Eddy-viscosity closures** for the linearised Navier–Stokes operator, including anisotropic, component-wise corrections
 - **Coherent structures** and the self-sustaining process in turbulent channel flow
 
-Background
+News
 ======
-- **PhD**, Aeronautics, Imperial College London (in progress) — supervisor: Prof. Yongyun Hwang
-- Working on linearised modelling of wall turbulence, externally forced coherent motions, and eddy-viscosity closures.
+<div class="section-empty">—</div>
+
+Forthcoming
+======
+<div class="section-empty">—</div>
+
+Education
+======
+- **PhD**, Instability, Turbulence & Pattern Formation Group, Department of Aeronautics, Imperial College London &nbsp;·&nbsp; Nov 2024 – Nov 2028 (expected)
+- **MSc**, Department of Earth Science and Engineering, Imperial College London &nbsp;·&nbsp; 2023 – 2024
+- **BA Mathematics** (Applied), University of Liverpool &nbsp;·&nbsp; 2021 – 2023
+- **BA Mathematics** (Applied), Xi'an Jiaotong–Liverpool University &nbsp;·&nbsp; 2019 – 2021
+
+Manuscripts
+======
+- *Producing Optimal Adaptive Meshes for Finite Element Methods Using Neural Networks* &nbsp;·&nbsp; 2025  
+  Yufan Song, Boyang Chen, Christopher Pain. A deep-learning framework — GAN + Pointer Network + MLPs — for generating 2D optimal adaptive unstructured meshes for FEM.
 
 Contact
 ======
 Email: [ys723@ic.ac.uk](mailto:ys723@ic.ac.uk)  
 Office: Department of Aeronautics, Imperial College London, South Kensington Campus, London SW7 2AZ, UK
+
+<div class="visitor-map">
+  <p class="visitor-map__label">Visitors</p>
+  <div class="visitor-map__widget">
+    <!-- ClustrMaps globe widget — register a free account at https://clustrmaps.com/,
+         add yufansong.com, then paste the script tag generated for you below
+         (it will look like the line under this comment). Delete the placeholder note. -->
+    <p class="visitor-map__placeholder">Map will appear here once the ClustrMaps tracker ID is added.</p>
+    <!-- <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=YOUR_MAP_ID"></script> -->
+  </div>
+</div>

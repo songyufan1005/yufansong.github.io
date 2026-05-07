@@ -1,26 +1,28 @@
 /* ============================================================
-   Alex Webb–inspired editorial palette
-   warm cream stucco, deep ink, vermilion accent, geometric rules
+   Editorial restraint
+   washi paper · deep ink · oxblood accent · severe geometry
+   references: Webb (saturated shadow) · Antwerp Six (deconstructed
+   minimalism) · Raf Simons (severe sans + asymmetry) · Undercover
+   (subversive quiet) · Aman / Park Hyatt (zen luxury, material honesty)
    ============================================================ */
 
 :root {
-  --aw-cream:        #f3ecdd;
-  --aw-cream-soft:   #faf5e9;
-  --aw-ink:          #1a1714;
-  --aw-ink-soft:     #4a443d;
-  --aw-ink-faint:    #7a7268;
-  --aw-vermilion:    #b53a1f;
-  --aw-vermilion-dk: #8a2a14;
-  --aw-shadow:       #1d2735;
-  --aw-rule:         rgba(26, 23, 20, 0.16);
-  --aw-rule-strong:  rgba(26, 23, 20, 0.32);
+  --aw-paper:        #f0ece4;   /* warm washi ground */
+  --aw-paper-soft:   #f7f4ed;
+  --aw-paper-edge:   #e6e1d6;
+  --aw-ink:          #181614;   /* deep warm ink, not pure black */
+  --aw-ink-soft:     #5d564d;
+  --aw-ink-faint:    #8d877e;
+  --aw-accent:       #8a3a26;   /* oxblood — a Webb red passed through Margiela */
+  --aw-accent-deep:  #6e2a17;
+  --aw-rule:         rgba(24, 22, 20, 0.13);
+  --aw-rule-strong:  rgba(24, 22, 20, 0.32);
 }
 
-/* Force the warm light palette (override prefers-color-scheme dark) */
-html,
-html[data-theme],
-body {
-  background: var(--aw-cream) !important;
+/* ---------- Force the curated palette regardless of OS / theme toggle ---------- */
+html, html[data-theme], html[data-theme="dark"], html[data-theme="light"],
+body, body[data-theme], body.dark, body.light {
+  background: var(--aw-paper) !important;
   color: var(--aw-ink) !important;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
                Helvetica, Arial, sans-serif !important;
@@ -30,8 +32,11 @@ body {
 }
 
 @media (prefers-color-scheme: dark) {
-  html, body { background: var(--aw-cream) !important; color: var(--aw-ink) !important; }
+  html, body { background: var(--aw-paper) !important; color: var(--aw-ink) !important; }
 }
+
+/* hide the theme-toggle entirely — the design is a single curated voice */
+#theme-toggle { display: none !important; }
 
 /* Strip background fills on layout containers */
 #main, .page, .page__inner-wrap, .page__content, .archive,
@@ -42,108 +47,132 @@ body {
 
 /* ---------- Typography ---------- */
 .page__content {
-  font-size: 1.02rem;
-  line-height: 1.78;
+  font-size: 1.0rem;
+  line-height: 1.82;
   color: var(--aw-ink);
 }
 .page__content p { margin: 1.15em 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--aw-ink);
+  color: var(--aw-ink) !important;
   font-weight: 500;
   letter-spacing: -0.005em;
 }
 
-/* Section labels — small caps in vermilion, like a print magazine */
+/* Section labels — small caps in muted oxblood, like a couture label tab */
 .page__content h1,
 .page__content h2 {
-  font-family: "Inter", sans-serif;
-  font-size: 0.74rem;
+  font-family: "Inter", sans-serif !important;
+  font-size: 0.7rem !important;
   text-transform: uppercase;
-  letter-spacing: 0.22em;
-  font-weight: 600;
-  color: var(--aw-vermilion);
-  margin-top: 3.2em;
-  margin-bottom: 1.2em;
-  padding-bottom: 0.55em;
+  letter-spacing: 0.32em;
+  font-weight: 500;
+  color: var(--aw-accent) !important;
+  margin-top: 3.6em;
+  margin-bottom: 1.4em;
+  padding-bottom: 0.6em;
   border-bottom: 1px solid var(--aw-rule);
 }
 
+.page__content h3 {
+  font-family: "EB Garamond", "Cormorant Garamond", Georgia, serif !important;
+  font-size: 1.15rem !important;
+  font-style: italic;
+  font-weight: 500;
+  color: var(--aw-ink) !important;
+  margin-top: 2em;
+}
+
 /* Hide redundant page title "About" on landing */
-.page__title { display: none; }
+.page__title { display: none !important; }
 
 /* ---------- Links ---------- */
 a, a:visited {
-  color: var(--aw-vermilion);
+  color: var(--aw-accent);
   text-decoration: none;
-  border-bottom: 1px solid rgba(181, 58, 31, 0.28);
-  transition: color .18s ease, border-color .18s ease, background-color .18s ease;
+  border-bottom: 1px solid rgba(138, 58, 38, 0.26);
+  transition: color .18s ease, border-color .18s ease;
 }
 a:hover {
-  color: var(--aw-vermilion-dk);
+  color: var(--aw-accent-deep);
   border-bottom-color: currentColor;
 }
 
 /* ---------- Masthead ---------- */
 .masthead {
-  background: var(--aw-cream) !important;
+  background: var(--aw-paper) !important;
   border-bottom: 1px solid var(--aw-rule);
+  font-size: 1em;
 }
-.masthead__inner-wrap { padding: 1.2em 1em; }
+.masthead__inner-wrap { padding: 1.4em 1em; max-width: 1280px; }
 .greedy-nav { background: transparent !important; }
+
 .greedy-nav .site-title,
 .greedy-nav a.site-title {
   font-family: "EB Garamond", "Cormorant Garamond", Georgia, serif !important;
-  font-weight: 600;
-  font-size: 1.35rem !important;
-  letter-spacing: 0.015em;
+  font-weight: 600 !important;
+  font-size: 1.3rem !important;
+  letter-spacing: 0.012em;
   color: var(--aw-ink) !important;
   border-bottom: none;
 }
 .greedy-nav .visible-links a,
 .greedy-nav .hidden-links a {
-  color: var(--aw-ink);
+  color: var(--aw-ink) !important;
   border-bottom: none;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif !important;
   font-weight: 500;
-  font-size: 0.78rem;
-  letter-spacing: 0.14em;
+  font-size: 0.74rem;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
 }
-.greedy-nav .visible-links a:hover { color: var(--aw-vermilion); }
-.greedy-nav .visible-links a::before { background: var(--aw-vermilion); }
+.greedy-nav .visible-links a:hover { color: var(--aw-accent) !important; }
+.greedy-nav .visible-links a::before { background: var(--aw-accent) !important; }
 
 /* ---------- Sidebar (author profile) ---------- */
 .sidebar { color: var(--aw-ink); }
 
-.sidebar .author__avatar { margin-bottom: 1.1em; }
+.sidebar .author__avatar { margin-bottom: 1.2em; }
 .sidebar .author__avatar img {
   max-width: 220px;
   width: 100%;
-  border-radius: 0;             /* hard rectangular frame, Webb-like */
+  border-radius: 0;            /* hard square — Antwerp / Margiela */
   border: none;
-  filter: contrast(1.04) saturate(1.06);
-  box-shadow: 6px 6px 0 var(--aw-shadow);  /* offset shadow as a "frame" */
+  box-shadow: none;            /* no decoration; let the photograph stand */
+  filter: contrast(1.04) saturate(1.04);
 }
 
 .author__name {
   font-family: "EB Garamond", "Cormorant Garamond", Georgia, serif !important;
-  font-weight: 600;
+  font-weight: 600 !important;
   font-size: 1.7rem !important;
   letter-spacing: -0.005em;
-  color: var(--aw-ink);
-  margin: 0.4em 0 0.15em;
+  color: var(--aw-ink) !important;
+  margin: 0.8em 0 0.2em !important;
   line-height: 1.15;
+  /* small label tab above the name, à la couture care label */
+  position: relative;
+  padding-top: 0.6em;
 }
-.author__bio {
-  font-size: 0.92rem;
-  color: var(--aw-ink-soft);
-  font-style: italic;
-  line-height: 1.55;
-  margin-bottom: 1.2em;
+.author__name::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px;
+  height: 1px;
+  background: var(--aw-accent);
 }
 
-/* Hide "Follow" button — not in keeping with the editorial tone */
+.author__bio {
+  font-size: 0.92rem;
+  color: var(--aw-ink-soft) !important;
+  font-style: italic;
+  line-height: 1.55;
+  margin-bottom: 1.4em;
+}
+
+/* hide the generic "Follow" button — not in keeping with the editorial voice */
 .author__urls-wrapper > button.btn { display: none !important; }
 
 .author__urls {
@@ -153,8 +182,8 @@ a:hover {
   background: transparent;
 }
 .author__urls li {
-  font-size: 0.82rem;
-  color: var(--aw-ink-soft);
+  font-size: 0.8rem !important;
+  color: var(--aw-ink-soft) !important;
   letter-spacing: 0.02em;
   border: none !important;
   padding: 0.32em 0 !important;
@@ -164,38 +193,38 @@ a:hover {
   color: var(--aw-ink) !important;
   border-bottom: none;
 }
-.author__urls li a:hover { color: var(--aw-vermilion) !important; }
+.author__urls li a:hover { color: var(--aw-accent) !important; }
 .author__urls li i,
 .author__urls li .ai {
-  color: var(--aw-vermilion) !important;
+  color: var(--aw-accent) !important;
   width: 1.4em;
   margin-right: 0.25em;
 }
 
 /* ---------- Lists in body ---------- */
-.page__content ul:not(.author__urls):not(.pagination) {
+.page__content ul:not(.author__urls):not(.pagination):not(.taxonomy__index) {
   padding-left: 0;
   list-style: none;
 }
-.page__content ul:not(.author__urls):not(.pagination) > li {
+.page__content ul:not(.author__urls):not(.pagination):not(.taxonomy__index) > li {
   padding-left: 1.3em;
   position: relative;
-  margin: 0.55em 0;
+  margin: 0.65em 0;
 }
-.page__content ul:not(.author__urls):not(.pagination) > li::before {
+.page__content ul:not(.author__urls):not(.pagination):not(.taxonomy__index) > li::before {
   content: "";
   position: absolute;
   left: 0;
   top: 0.85em;
-  width: 0.7em;
+  width: 0.55em;
   height: 1px;
-  background: var(--aw-vermilion);
+  background: var(--aw-accent);
 }
 
-/* ---------- Code & math inline ---------- */
+/* ---------- Inline emphasis ---------- */
 .page__content code {
-  background: rgba(181, 58, 31, 0.07);
-  color: var(--aw-vermilion-dk);
+  background: rgba(138, 58, 38, 0.07);
+  color: var(--aw-accent-deep);
   padding: 0.1em 0.38em;
   border-radius: 2px;
   font-size: 0.92em;
@@ -204,21 +233,68 @@ a:hover {
 .page__content strong { color: var(--aw-ink); font-weight: 600; }
 .page__content em { color: var(--aw-ink-soft); }
 
-/* Blockquote — geometric red rule */
+/* ---------- Blockquote ---------- */
 .page__content blockquote {
-  border-left: 3px solid var(--aw-vermilion);
+  border-left: 2px solid var(--aw-accent);
   background: transparent;
   color: var(--aw-ink-soft);
   font-style: italic;
-  padding: 0.3em 0 0.3em 1.4em;
-  margin: 1.6em 0;
+  padding: 0.3em 0 0.3em 1.6em;
+  margin: 1.8em 0;
 }
 
 /* ---------- Horizontal rules ---------- */
 .page__content hr {
   border: none;
   border-top: 1px solid var(--aw-rule);
-  margin: 2.4em 0;
+  margin: 2.6em 0;
+}
+
+/* ---------- Empty section placeholder (for News / Forthcoming) ---------- */
+.section-empty {
+  font-family: "EB Garamond", "Cormorant Garamond", Georgia, serif;
+  font-size: 1.7rem;
+  color: var(--aw-ink-faint);
+  letter-spacing: 0.04em;
+  margin: 0.6em 0 0.4em;
+  user-select: none;
+}
+
+/* ---------- Visitor map block ---------- */
+.visitor-map {
+  margin: 5.5em 0 1em;
+  padding-top: 2.6em;
+  border-top: 1px solid var(--aw-rule);
+  text-align: center;
+}
+.visitor-map__label {
+  font-family: "Inter", sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.32em;
+  color: var(--aw-accent);
+  margin: 0 0 1.8em;
+  font-weight: 500;
+}
+.visitor-map__widget {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 220px;
+}
+.visitor-map__widget img,
+.visitor-map__widget canvas,
+.visitor-map__widget iframe,
+.visitor-map__widget > div {
+  margin: 0 auto;
+  max-width: 100%;
+}
+.visitor-map__placeholder {
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  color: var(--aw-ink-faint);
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
 }
 
 /* ---------- Footer ---------- */
@@ -226,32 +302,29 @@ a:hover {
   background: transparent !important;
   color: var(--aw-ink-faint) !important;
   border-top: 1px solid var(--aw-rule);
-  font-size: 0.76rem;
-  letter-spacing: 0.06em;
-  margin-top: 4em;
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  margin-top: 4.5em;
 }
 .page__footer a {
   color: var(--aw-ink-soft) !important;
   border-bottom: none;
 }
-.page__footer a:hover { color: var(--aw-vermilion) !important; }
-.page__footer-follow { display: none; }   /* hide social follow row */
+.page__footer a:hover { color: var(--aw-accent) !important; }
+.page__footer-follow { display: none !important; }
 
 /* ---------- Selection ---------- */
 ::selection {
-  background: var(--aw-vermilion);
-  color: var(--aw-cream-soft);
+  background: var(--aw-accent);
+  color: var(--aw-paper-soft);
 }
 
-/* ---------- Small refinements ---------- */
+/* ---------- Notices / callouts ---------- */
 .notice, .notice--primary, .notice--info,
 .notice--warning, .notice--success, .notice--danger {
-  background: var(--aw-cream-soft);
-  border-left: 3px solid var(--aw-vermilion);
+  background: var(--aw-paper-soft);
+  border-left: 2px solid var(--aw-accent);
   color: var(--aw-ink);
   border-radius: 0;
   box-shadow: none;
 }
-
-/* Theme toggle button (if shown) — quiet it down */
-.theme-toggle, .theme-toggle * { color: var(--aw-ink-faint) !important; }
