@@ -13,8 +13,8 @@ title                    : "Yufan Song"
 title_separator          : "-"
 name                     : &name "Yufan Song"
 description              : &description "PhD candidate, Department of Aeronautics, Imperial College London. Resolvent analysis and data-driven modelling of wall-bounded turbulence."
-url                      : https://songyufan1005.github.io
-baseurl                  : "/yufansong.github.io"
+url                      : https://yufansong.com
+baseurl                  : ""
 repository               : "songyufan1005/yufansong.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
