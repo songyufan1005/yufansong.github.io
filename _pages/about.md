@@ -44,10 +44,6 @@ Office: Department of Aeronautics, Imperial College London, South Kensington Cam
 <div class="visitor-map">
   <p class="visitor-map__label">Visitors</p>
   <div class="visitor-map__widget">
-    <!-- ClustrMaps globe widget — register a free account at https://clustrmaps.com/,
-         add yufansong.com, then paste the script tag generated for you below
-         (it will look like the line under this comment). Delete the placeholder note. -->
-    <p class="visitor-map__placeholder">Map will appear here once the ClustrMaps tracker ID is added.</p>
-    <!-- <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=YOUR_MAP_ID"></script> -->
+    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=TfibMZgsx8Ml-Wp9jZ00S2w6i86IXOOF6NVbd_WNbHU&cl=f0ece4&w=a"></script>
   </div>
 </div>
