@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in the [Department of Aeronautics](https://www.imperial.ac.uk/aeronautics/) at Imperial College London, supervised by [Prof. Yongyun Hwang](https://www.imperial.ac.uk/people/y.hwang). I work on **data-driven resolvent analysis** of externally forced coherent motions in turbulent channel flow, combining direct numerical simulation with linearised models of the Navier–Stokes equations.
+I am a PhD candidate in the [Department of Aeronautics](https://www.imperial.ac.uk/aeronautics/) at Imperial College London, supervised by [Prof. Yongyun Hwang](https://www.imperial.ac.uk/people/y.hwang). I work on **data-driven resolvent analysis** of coherent motions in wall-bounded turbulence.
 
 Research interests
 ======
