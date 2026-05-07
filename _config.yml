@@ -13,9 +13,9 @@ title                    : "Yufan Song"
 title_separator          : "-"
 name                     : &name "Yufan Song"
 description              : &description "PhD candidate, Department of Aeronautics, Imperial College London. Resolvent analysis and data-driven modelling of wall-bounded turbulence."
-url                      : https://yufansong.github.io
+url                      : https://songyufan1005.github.io
 baseurl                  : ""
-repository               : "yufansong/yufansong.github.io"
+repository               : "songyufan1005/songyufan1005.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -50,7 +50,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "yufansong"
+  github           : "songyufan1005"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
