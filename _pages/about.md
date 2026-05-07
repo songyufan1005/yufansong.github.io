@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in the [Department of Aeronautics](https://www.imperial.ac.uk/aeronautics/) at Imperial College London, supervised by [Dr. Yongyun Hwang](https://www.imperial.ac.uk/people/y.hwang). My research uses **resolvent analysis** and **direct numerical simulation (DNS)** to understand and model coherent motions in wall-bounded turbulence.
+I am a PhD candidate in the [Department of Aeronautics](https://www.imperial.ac.uk/aeronautics/) at Imperial College London, supervised by [Prof. Yongyun Hwang](https://www.imperial.ac.uk/people/y.hwang). My research uses **resolvent analysis** and **direct numerical simulation (DNS)** to understand and model coherent motions in wall-bounded turbulence.
 
 Research interests
 ======
@@ -16,13 +16,9 @@ Research interests
 - **Eddy-viscosity closures** for the linearised Navier–Stokes operator, including anisotropic, component-wise corrections
 - **Coherent structures** and the self-sustaining process in turbulent channel flow
 
-Current work
-======
-My current project develops a *data-driven optimal harmonic response* framework for turbulent channel flow at $Re_\tau = 100$. By imposing the leading resolvent forcing modes in DNS and recovering the coherent response via phase averaging, we extract a DNS-truth optimal forcing through a generalised eigenvalue problem. The comparison with the eddy-viscosity-closed resolvent (eLNS) reveals systematic biases in the isotropic Cess closure, which we correct with a component-wise rescaling that recovers the DNS energy transfer profiles.
-
 Background
 ======
-- **PhD**, Aeronautics, Imperial College London (in progress) — supervisor: Dr. Yongyun Hwang
+- **PhD**, Aeronautics, Imperial College London (in progress) — supervisor: Prof. Yongyun Hwang
 - Working on linearised modelling of wall turbulence, externally forced coherent motions, and eddy-viscosity closures.
 
 Contact
