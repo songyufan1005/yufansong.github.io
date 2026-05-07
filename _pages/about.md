@@ -12,7 +12,7 @@ I am a PhD candidate in the [Department of Aeronautics](https://www.imperial.ac.
 Research interests
 ======
 - **Resolvent analysis** 
-- **Data-driven turbulence modelling**: 
+- **Data-driven turbulence modelling** 
 - **Transient growth of perturbations** 
 
 
