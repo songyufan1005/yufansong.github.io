@@ -33,6 +33,10 @@ Education
 
 Manuscripts
 ======
+- *Data-driven optimal harmonic response and resolvent analysis of turbulent channel flow* &nbsp;·&nbsp; 2026  
+Yufan Song, Yongyun Hwang.  
+A data-driven resolvent framework for externally forced coherent motions in turbulent channel flow; reveals component-dependent biases in isotropic eddy-viscosity closures and proposes anisotropic corrections.
+
 - *Producing Optimal Adaptive Meshes for Finite Element Methods Using Neural Networks* &nbsp;·&nbsp; 2025  
 Yufan Song, Boyang Chen, Christopher Pain.  
 A deep-learning framework — GAN + Pointer Network + MLPs — for generating 2D optimal adaptive unstructured meshes for FEM.
