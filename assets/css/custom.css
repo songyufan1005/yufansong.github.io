@@ -107,15 +107,24 @@ a:hover {
 .masthead__inner-wrap { padding: 1.4em 1em; max-width: 1280px; }
 .greedy-nav { background: transparent !important; }
 
+/* Site title — the masthead__menu-item--lg is the home link/site title.
+   Override the generic visible-links styling so the title stays elegant serif. */
+.greedy-nav .masthead__menu-item--lg a,
+.greedy-nav .masthead__menu-item--lg.selected a,
+.greedy-nav .masthead__menu-item--lg a:hover,
 .greedy-nav .site-title,
 .greedy-nav a.site-title {
   font-family: "EB Garamond", "Cormorant Garamond", Georgia, serif !important;
   font-weight: 600 !important;
   font-size: 1.3rem !important;
-  letter-spacing: 0.012em;
+  letter-spacing: 0.012em !important;
   color: var(--aw-ink) !important;
+  text-transform: none !important;
+  background: transparent !important;
   border-bottom: none;
 }
+
+/* Other masthead items (currently none, but defensive) */
 .greedy-nav .visible-links a,
 .greedy-nav .hidden-links a {
   color: var(--aw-ink) !important;
@@ -125,9 +134,17 @@ a:hover {
   font-size: 0.74rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
+  background: transparent !important;
 }
 .greedy-nav .visible-links a:hover { color: var(--aw-accent) !important; }
 .greedy-nav .visible-links a::before { background: var(--aw-accent) !important; }
+
+/* Kill any selected-state background that the default theme adds */
+.greedy-nav .masthead__menu-item.selected a,
+.greedy-nav .masthead__menu-item--lg.selected a,
+.greedy-nav .masthead__menu-item--lg.persist.selected a {
+  background: transparent !important;
+}
 
 /* ---------- Sidebar (author profile) ---------- */
 .sidebar { color: var(--aw-ink); }
@@ -143,17 +160,30 @@ a:hover {
 }
 
 .author__name {
-  font-family: "EB Garamond", "Cormorant Garamond",
-               "Source Han Serif SC", "Noto Serif CJK SC",
-               "Songti SC", "STSong", "SimSun", Georgia, serif !important;
+  font-family: "EB Garamond", "Cormorant Garamond", Georgia, serif !important;
   font-weight: 600 !important;
-  font-size: 1.65rem !important;
+  font-size: 1.55rem !important;
   letter-spacing: -0.005em;
   color: var(--aw-ink) !important;
-  margin: 0.4em 0 0.2em !important;
+  margin: 0.5em 0 0.2em !important;
   line-height: 1.18;
 }
 .author__name::before { content: none !important; }
+
+/* Chinese sub-name — small caps weight, lighter, on its own line */
+.author__name-cn {
+  display: block;
+  font-family: "Source Han Serif SC", "Noto Serif CJK SC",
+               "Songti SC", "STSong", "SimSun", "EB Garamond", serif;
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: var(--aw-ink-soft);
+  letter-spacing: 0.32em;
+  margin-top: 0.45em;
+  padding-top: 0.45em;
+  border-top: 1px solid var(--aw-rule);
+  line-height: 1;
+}
 
 .author__bio {
   font-size: 0.92rem;
