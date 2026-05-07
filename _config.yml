@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Yufan Song"
+title                    : "Yufan Song（宋予樊）"
 title_separator          : "-"
 name                     : &name "Yufan Song"
 description              : &description "PhD candidate, Department of Aeronautics, Imperial College London. Resolvent analysis and data-driven modelling of wall-bounded turbulence."
@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Yufan Song"
-  name_cn          : "宋予樊"
+  name_cn          :
   pronouns         :
   bio              :
   location         : "London, UK"

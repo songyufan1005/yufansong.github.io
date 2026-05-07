@@ -16,20 +16,20 @@ Research interests
 - **Transient growth of perturbations** 
 
 
-News
-======
-<div class="section-empty">—</div>
-
 Forthcoming
 ======
 - Talk &nbsp;·&nbsp; [**EUROMECH Colloquium 668** — *Coherent structures in multiphysics flows: modelling, control and interpretation*](https://668.euromech.org/about/), Technische Universität Berlin &nbsp;·&nbsp; 1–3 July 2026
 
+News
+======
+<div class="section-empty">—</div>
+
 Education
 ======
 - **PhD**, Instability, Turbulence & Pattern Formation Group, Department of Aeronautics, Imperial College London &nbsp;·&nbsp; 2024 – 2028 (expected)
-- **MSc**, Department of Earth Science and Engineering (ESE), Imperial College London &nbsp;·&nbsp; 2023 – 2024
-- **BA Applied Mathematics**, University of Liverpool &nbsp;·&nbsp; 2021 – 2023
-- **BA Applied Mathematics**, Xi'an Jiaotong–Liverpool University &nbsp;·&nbsp; 2019 – 2021
+- **MSc**, ESE, Imperial College London &nbsp;·&nbsp; 2023 – 2024
+- **BSc Applied Mathematics**, University of Liverpool &nbsp;·&nbsp; 2021 – 2023
+- **BSc Applied Mathematics**, Xi'an Jiaotong–Liverpool University &nbsp;·&nbsp; 2019 – 2021
 
 Manuscripts
 ======

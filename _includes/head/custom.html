@@ -13,6 +13,15 @@
 <!-- Custom theme overrides (Alex Webb-inspired editorial palette) -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/custom.css"/>
 
+<!-- Palette toggle: read saved preference synchronously to avoid a flash of the wrong palette -->
+<script>
+  try {
+    var p = localStorage.getItem('aw-palette');
+    if (p === 'ink') document.documentElement.setAttribute('data-palette', 'ink');
+  } catch (e) {}
+</script>
+<script defer src="{{ base_path }}/assets/js/palette-toggle.js"></script>
+
 <!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>

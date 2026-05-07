@@ -139,11 +139,18 @@ a:hover {
 .greedy-nav .visible-links a:hover { color: var(--aw-accent) !important; }
 .greedy-nav .visible-links a::before { background: var(--aw-accent) !important; }
 
-/* Kill any selected-state background that the default theme adds */
+/* Kill any selected-state background that the default theme adds — defensive */
+.greedy-nav .masthead__menu-item,
+.greedy-nav .masthead__menu-item a,
+.greedy-nav .masthead__menu-item.persist,
+.greedy-nav .masthead__menu-item.persist a,
 .greedy-nav .masthead__menu-item.selected a,
 .greedy-nav .masthead__menu-item--lg.selected a,
-.greedy-nav .masthead__menu-item--lg.persist.selected a {
+.greedy-nav .masthead__menu-item--lg.persist.selected a,
+.greedy-nav button {
   background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
 
 /* ---------- Sidebar (author profile) ---------- */
@@ -354,4 +361,60 @@ a:hover {
   color: var(--aw-ink);
   border-radius: 0;
   box-shadow: none;
+}
+
+/* ---------- Palette toggle button (top-right) ---------- */
+.palette-toggle {
+  position: fixed;
+  top: 1.6em;
+  right: 1.6em;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid var(--aw-rule-strong);
+  background: linear-gradient(135deg,
+    var(--aw-paper) 0%,
+    var(--aw-paper) 49.5%,
+    var(--aw-ink) 50.5%,
+    var(--aw-ink) 100%);
+  cursor: pointer;
+  z-index: 1000;
+  transition: transform 0.4s ease, border-color 0.2s ease;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.palette-toggle:hover {
+  border-color: var(--aw-accent);
+  transform: rotate(180deg);
+}
+.palette-toggle:focus-visible {
+  outline: 1px solid var(--aw-accent);
+  outline-offset: 3px;
+}
+@media (max-width: 720px) {
+  .palette-toggle { top: 1em; right: 1em; width: 20px; height: 20px; }
+}
+
+/* ---------- Dark palette (Aman lobby at night: walnut + cream + warm terracotta) ---------- */
+html[data-palette="ink"] {
+  --aw-paper:        #1a1715;
+  --aw-paper-soft:   #221e1a;
+  --aw-paper-edge:   #2a2520;
+  --aw-ink:          #ece6d8;
+  --aw-ink-soft:     #a09587;
+  --aw-ink-faint:    #6b6359;
+  --aw-accent:       #c4754f;
+  --aw-accent-deep:  #a85a3a;
+  --aw-rule:         rgba(236, 230, 216, 0.16);
+  --aw-rule-strong:  rgba(236, 230, 216, 0.34);
+}
+html[data-palette="ink"] .author__avatar img {
+  filter: contrast(1.02) saturate(0.95) brightness(0.92);
+}
+/* MapMyVisitors widget background is hardcoded to cream — soften the contrast in dark */
+html[data-palette="ink"] .visitor-map__widget img,
+html[data-palette="ink"] .visitor-map__widget canvas {
+  opacity: 0.78;
+  mix-blend-mode: luminosity;
 }
