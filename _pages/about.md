@@ -7,14 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in the [Department of Aeronautics](https://www.imperial.ac.uk/aeronautics/) at Imperial College London, supervised by [Prof. Yongyun Hwang](https://www.imperial.ac.uk/people/y.hwang). My research uses **resolvent analysis** and **direct numerical simulation (DNS)** to understand and model coherent motions in wall-bounded turbulence.
+I am a PhD candidate in the [Department of Aeronautics](https://www.imperial.ac.uk/aeronautics/) at Imperial College London, supervised by [Prof. Yongyun Hwang](https://www.imperial.ac.uk/people/y.hwang). I work on **data-driven resolvent analysis** of externally forced coherent motions in turbulent channel flow, combining direct numerical simulation with linearised models of the Navier–Stokes equations.
 
 Research interests
 ======
 - **Resolvent analysis** of turbulent shear flows under the triple decomposition framework
-- **Data-driven modelling**: extracting optimal forcing/response pairs from DNS and improving linear closures
-- **Eddy-viscosity closures** for the linearised Navier–Stokes operator, including anisotropic, component-wise corrections
-- **Coherent structures** and the self-sustaining process in turbulent channel flow
+- **Data-driven modelling**: optimal forcing/response pairs extracted from DNS via phase averaging and a generalised eigenvalue problem
+- **Eddy-viscosity closures** for the linearised operator — including anisotropic, component-dependent corrections to isotropic models
+- **Coherent structures** and the self-sustaining process across scales in wall-bounded turbulence
 
 News
 ======
@@ -22,19 +22,20 @@ News
 
 Forthcoming
 ======
-<div class="section-empty">—</div>
+- Talk &nbsp;·&nbsp; [**EUROMECH Colloquium 668** — *Coherent structures in multiphysics flows: modelling, control and interpretation*](https://668.euromech.org/about/), Technische Universität Berlin &nbsp;·&nbsp; 1–3 July 2026
 
 Education
 ======
 - **PhD**, Instability, Turbulence & Pattern Formation Group, Department of Aeronautics, Imperial College London &nbsp;·&nbsp; Nov 2024 – Nov 2028 (expected)
-- **MSc**, Department of Earth Science and Engineering, Imperial College London &nbsp;·&nbsp; 2023 – 2024
-- **BA Mathematics** (Applied), University of Liverpool &nbsp;·&nbsp; 2021 – 2023
-- **BA Mathematics** (Applied), Xi'an Jiaotong–Liverpool University &nbsp;·&nbsp; 2019 – 2021
+- **MSc**, Department of Earth Science and Engineering (ESE), Imperial College London &nbsp;·&nbsp; 2023 – 2024
+- **BA Applied Mathematics**, University of Liverpool &nbsp;·&nbsp; 2021 – 2023
+- **BA Applied Mathematics**, Xi'an Jiaotong–Liverpool University &nbsp;·&nbsp; 2019 – 2021
 
 Manuscripts
 ======
 - *Producing Optimal Adaptive Meshes for Finite Element Methods Using Neural Networks* &nbsp;·&nbsp; 2025  
-  Yufan Song, Boyang Chen, Christopher Pain. A deep-learning framework — GAN + Pointer Network + MLPs — for generating 2D optimal adaptive unstructured meshes for FEM.
+Yufan Song, Boyang Chen, Christopher Pain.  
+A deep-learning framework — GAN + Pointer Network + MLPs — for generating 2D optimal adaptive unstructured meshes for FEM.
 
 Contact
 ======

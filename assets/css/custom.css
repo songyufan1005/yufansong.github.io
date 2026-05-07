@@ -143,26 +143,17 @@ a:hover {
 }
 
 .author__name {
-  font-family: "EB Garamond", "Cormorant Garamond", Georgia, serif !important;
+  font-family: "EB Garamond", "Cormorant Garamond",
+               "Source Han Serif SC", "Noto Serif CJK SC",
+               "Songti SC", "STSong", "SimSun", Georgia, serif !important;
   font-weight: 600 !important;
-  font-size: 1.7rem !important;
+  font-size: 1.65rem !important;
   letter-spacing: -0.005em;
   color: var(--aw-ink) !important;
-  margin: 0.8em 0 0.2em !important;
-  line-height: 1.15;
-  /* small label tab above the name, à la couture care label */
-  position: relative;
-  padding-top: 0.6em;
+  margin: 0.4em 0 0.2em !important;
+  line-height: 1.18;
 }
-.author__name::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 28px;
-  height: 1px;
-  background: var(--aw-accent);
-}
+.author__name::before { content: none !important; }
 
 .author__bio {
   font-size: 0.92rem;
@@ -280,7 +271,9 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 220px;
+  max-width: 50%;
+  margin: 0 auto;
+  min-height: 160px;
 }
 .visitor-map__widget img,
 .visitor-map__widget canvas,
@@ -288,6 +281,10 @@ a:hover {
 .visitor-map__widget > div {
   margin: 0 auto;
   max-width: 100%;
+  height: auto;
+}
+@media (max-width: 720px) {
+  .visitor-map__widget { max-width: 80%; }
 }
 .visitor-map__placeholder {
   font-family: "EB Garamond", serif;
