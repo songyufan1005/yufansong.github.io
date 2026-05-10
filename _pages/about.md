@@ -27,7 +27,7 @@ News
 Education
 ======
 - **PhD**, Department of Aeronautics, Imperial College London &nbsp;·&nbsp; 2024 – 2028 (expected)
-- **MSc**, ESE, Imperial College London &nbsp;·&nbsp; 2023 – 2024
+- **MSc**, Department of ESE, Imperial College London &nbsp;·&nbsp; 2023 – 2024
 - **BSc Applied Mathematics**, University of Liverpool &nbsp;·&nbsp; 2021 – 2023
 - **BSc Applied Mathematics**, Xi'an Jiaotong–Liverpool University &nbsp;·&nbsp; 2019 – 2021
 
