@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in the [Department of Aeronautics](https://www.imperial.ac.uk/aeronautics/) at Imperial College London, supervised by [Prof. Yongyun Hwang](https://www.imperial.ac.uk/people/y.hwang). I work on **linear analysis of coherent motions** in wall-bounded turbulence.
+I am a PhD candidate in the [Instability, Turbulence & Pattern Formation Group](https://www.itpfg-hwang.group/home), [Department of Aeronautics](https://www.imperial.ac.uk/aeronautics/), Imperial College London, supervised by [Prof. Yongyun Hwang](https://www.imperial.ac.uk/people/y.hwang). I work on **linear analysis of coherent motions** in wall-bounded turbulence.
 
 Research interests
 ======
@@ -26,7 +26,7 @@ News
 
 Education
 ======
-- **PhD**, Instability, Turbulence & Pattern Formation Group, Department of Aeronautics, Imperial College London &nbsp;·&nbsp; 2024 – 2028 (expected)
+- **PhD**, Department of Aeronautics, Imperial College London &nbsp;·&nbsp; 2024 – 2028 (expected)
 - **MSc**, ESE, Imperial College London &nbsp;·&nbsp; 2023 – 2024
 - **BSc Applied Mathematics**, University of Liverpool &nbsp;·&nbsp; 2021 – 2023
 - **BSc Applied Mathematics**, Xi'an Jiaotong–Liverpool University &nbsp;·&nbsp; 2019 – 2021
