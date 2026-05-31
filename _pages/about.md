@@ -19,6 +19,9 @@ Research interests
 Forthcoming
 ======
 - Talk &nbsp;·&nbsp; [**EUROMECH Colloquium 668** — *Coherent structures in multiphysics flows: modelling, control and interpretation*](https://668.euromech.org/about/), Technische Universität Berlin &nbsp;·&nbsp; 1–3 July 2026
+- Talk &nbsp;·&nbsp; [**14th National Conference on Fluid Mechanics** — *第十四届全国流体力学学术会议*](https://meeting.cstam.org.cn/?sid=553&mid=139&v=100), Qingdao, China &nbsp;·&nbsp; 7–11 August 2026
+
+
 
 News
 ======
@@ -33,13 +36,11 @@ Education
 
 Manuscripts
 ======
-- *Data-driven optimal harmonic response and resolvent analysis of turbulent channel flow* &nbsp;·&nbsp; 2026  
+- *Data-driven optimal harmonic forcing and resolvent analysis of turbulent channel flow* &nbsp;·&nbsp; 2026  
 Yufan Song, Yongyun Hwang.  
-A data-driven resolvent framework for externally forced coherent motions in turbulent channel flow.
 
 - *Producing Optimal Adaptive Meshes for Finite Element Methods Using Neural Networks* &nbsp;·&nbsp; 2025  
 Yufan Song, Boyang Chen, Christopher Pain.  
-A deep-learning framework — GAN + Pointer Network + MLPs — for generating 2D optimal adaptive unstructured meshes for FEM.
 
 Contact
 ======
