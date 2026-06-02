@@ -38,9 +38,11 @@ Manuscripts
 ======
 - *Data-driven optimal harmonic forcing and resolvent analysis of turbulent channel flow* &nbsp;·&nbsp; 2026  
 Yufan Song, Yongyun Hwang.  
+*In preparation for J. Fluid Mech.*
 
-- *Producing Optimal Adaptive Meshes for Finite Element Methods Using Neural Networks* &nbsp;·&nbsp; 2025  
+- *Producing Optimal Adaptive Meshes for Finite Element Methods Using Neural Networks* &nbsp;·&nbsp; 2024  
 Yufan Song, Boyang Chen, Christopher Pain.  
+*MSc Independent Research Project, Imperial College London.*
 
 Contact
 ======
