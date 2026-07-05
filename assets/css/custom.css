@@ -156,15 +156,8 @@ a:hover {
 /* ---------- Sidebar (author profile) ---------- */
 .sidebar { color: var(--aw-ink); }
 
-.sidebar .author__avatar { margin-bottom: 1.2em; }
-.sidebar .author__avatar img {
-  max-width: 220px;
-  width: 100%;
-  border-radius: 0;            /* hard square — Antwerp / Margiela */
-  border: none;
-  box-shadow: none;            /* no decoration; let the photograph stand */
-  filter: contrast(1.04) saturate(1.04);
-}
+/* Avatar removed — hide the entire frame so no empty container shows */
+.sidebar .author__avatar { display: none !important; }
 
 .author__name {
   font-family: "EB Garamond", "Cormorant Garamond", Georgia, serif !important;
