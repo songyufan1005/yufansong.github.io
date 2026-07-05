@@ -156,8 +156,20 @@ a:hover {
 /* ---------- Sidebar (author profile) ---------- */
 .sidebar { color: var(--aw-ink); }
 
-/* Avatar removed — hide the entire frame so no empty container shows */
-.sidebar .author__avatar { display: none !important; }
+/* Circular avatar — head-and-shoulders framing, hairline ring in ink-faint */
+.sidebar .author__avatar {
+  display: block !important;
+  margin: 0.4em 0 1.3em;
+}
+.sidebar .author__avatar img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--aw-rule);
+  box-shadow: none;
+  filter: contrast(1.04) saturate(1.03);
+}
 
 .author__name {
   font-family: "EB Garamond", "Cormorant Garamond", Georgia, serif !important;
