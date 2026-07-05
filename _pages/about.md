@@ -49,3 +49,10 @@ Department of Aeronautics
 Imperial College London  
 South Kensington Campus  
 London SW7 2AZ, UK
+
+<div class="visitor-map">
+  <p class="visitor-map__label">Visitors</p>
+  <div class="visitor-map__widget">
+    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=TfibMZgsx8Ml-Wp9jZ00S2w6i86IXOOF6NVbd_WNbHU&cl=f0ece4&w=a"></script>
+  </div>
+</div>
