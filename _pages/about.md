@@ -43,7 +43,7 @@ Yufan Song, Boyang Chen, Christopher Pain.
 
 Contact
 ======
-Email: [ys723@ic.ac.uk](mailto:ys723@ic.ac.uk)  
+Email: <span class="email-obf" data-u="ys723" data-d="ic.ac.uk"></span>  
 Office: CAGB 420  
 Department of Aeronautics  
 Imperial College London  
