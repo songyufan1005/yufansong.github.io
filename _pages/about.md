@@ -11,14 +11,17 @@ I am a PhD candidate in the [Instability, Turbulence & Pattern Formation Group](
 
 Research interests
 ======
-- **Resolvent analysis** 
-- **Data-driven turbulence modelling** 
-- **Transient growth of perturbations** 
+*How fluid dynamic systems respond to perturbation and forcing.*
+
+- **Resolvent analysis**
+- **Data-driven turbulence modelling**
+- **Transient growth of perturbations**
 
 
 Forthcoming
 ======
 - Talk &nbsp;·&nbsp; [**14th National Conference on Fluid Mechanics** — *第十四届全国流体力学学术会议*](https://meeting.cstam.org.cn/?sid=553&mid=139&v=100), Qingdao, China &nbsp;·&nbsp; 7–11 August 2026
+- Talk &nbsp;·&nbsp; [**APS DFD 2026** — *79th Annual Meeting of the Division of Fluid Dynamics*](https://dfd-meeting.aps.org/), Orlando, FL, USA &nbsp;·&nbsp; 22–24 November 2026
 
 News
 ======
