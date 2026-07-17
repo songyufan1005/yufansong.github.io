@@ -7,12 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in the [Instability, Turbulence & Pattern Formation Group](https://www.itpfg-hwang.group/home), [Department of Aeronautics](https://www.imperial.ac.uk/aeronautics/), Imperial College London, supervised by [Prof. Yongyun Hwang](https://www.imperial.ac.uk/people/y.hwang). I work on **linear analysis of coherent motions** in wall-bounded turbulence.
+I am a PhD candidate in the [Instability, Turbulence & Pattern Formation Group](https://www.itpfg-hwang.group/home), [Department of Aeronautics](https://www.imperial.ac.uk/aeronautics/), Imperial College London, supervised by [Prof. Yongyun Hwang](https://www.imperial.ac.uk/people/y.hwang). I study **how fluid dynamic systems respond to perturbation and forcing**.
 
 Research interests
 ======
-*How fluid dynamic systems respond to perturbation and forcing.*
-
 - **Resolvent analysis**
 - **Data-driven turbulence modelling**
 - **Transient growth of perturbations**
