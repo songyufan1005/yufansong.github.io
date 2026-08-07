@@ -35,7 +35,7 @@ Manuscripts
 ======
 - *Ensemble resolvent analysis of optimal harmonic forcing in turbulent channel flow* &nbsp;·&nbsp; 2026  
 Yufan Song, Yongyun Hwang.  
-*In preparation for J. Fluid Mech.*
+*Under consideration for publication in J. Fluid Mech.*
 
 - *Producing Optimal Adaptive Meshes for Finite Element Methods Using Neural Networks* &nbsp;·&nbsp; 2024  
 Yufan Song, Boyang Chen, Christopher Pain.  
@@ -50,9 +50,17 @@ Imperial College London
 South Kensington Campus  
 London SW7 2AZ, UK
 
-<div class="visitor-map">
+<div class="visitor-map" data-visitor-map>
   <p class="visitor-map__label">Visitors</p>
-  <div class="visitor-map__widget">
-    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=TfibMZgsx8Ml-Wp9jZ00S2w6i86IXOOF6NVbd_WNbHU&cl=f0ece4&w=a"></script>
+  <div class="visitor-map__widget" data-visitor-map-widget>
+    <p class="visitor-map__placeholder" data-visitor-map-fallback role="status">
+      <span>
+        Visitor statistics could not be loaded.
+        <a href="https://mapmyvisitors.com/web/1c4cw" target="_blank" rel="noopener">View statistics.</a>
+      </span>
+    </p>
+    <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=TfibMZgsx8Ml-Wp9jZ00S2w6i86IXOOF6NVbd_WNbHU&cl=f0ece4&w=a"></script>
   </div>
 </div>
+
+<script defer src="{{ '/assets/js/visitor-map.js' | relative_url }}"></script>

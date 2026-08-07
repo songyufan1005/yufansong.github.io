@@ -313,6 +313,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
   max-width: 50%;
   margin: 0 auto;
   min-height: 160px;
@@ -329,11 +330,39 @@ a:hover {
   .visitor-map__widget { max-width: 80%; }
 }
 .visitor-map__placeholder {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+  padding: 1.5em;
+  background: var(--aw-paper);
   font-family: "EB Garamond", serif;
   font-style: italic;
   color: var(--aw-ink-faint);
   font-size: 0.95rem;
   letter-spacing: 0.01em;
+}
+.visitor-map__placeholder a {
+  color: var(--aw-accent);
+}
+.visitor-map__widget:has(> #mapmyvisitors-widget) > .visitor-map__placeholder,
+.visitor-map--ready .visitor-map__placeholder {
+  display: none;
+}
+.visitor-map--failed .visitor-map__widget > #mapmyvisitors-widget {
+  display: none !important;
+}
+.visitor-map--failed .visitor-map__placeholder {
+  display: flex !important;
+}
+.visitor-map__widget .mapmyvisitors-visitors {
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em;
 }
 
 /* ---------- Footer ---------- */
