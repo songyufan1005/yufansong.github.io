@@ -16,12 +16,9 @@ Research interests
 - **Transient growth of perturbations**
 
 
-Forthcoming
-======
-- Talk &nbsp;·&nbsp; [**14th National Conference on Fluid Mechanics** — *第十四届全国流体力学学术会议*](https://meeting.cstam.org.cn/?sid=553&mid=139&v=100), Qingdao, China &nbsp;·&nbsp; 7–11 August 2026
-
 News
 ======
+- Talk &nbsp;·&nbsp; [**14th National Conference on Fluid Mechanics** — *第十四届全国流体力学学术会议*](https://meeting.cstam.org.cn/?sid=553&mid=139&v=100), Qingdao, China &nbsp;·&nbsp; 7–11 August 2026
 - Talk &nbsp;·&nbsp; [**EUROMECH Colloquium 668** — *Coherent structures in multiphysics flows: modelling, control and interpretation*](https://668.euromech.org/about/), Technische Universität Berlin &nbsp;·&nbsp; 1–3 July 2026
 
 Education
